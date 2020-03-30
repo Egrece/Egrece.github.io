@@ -1,8 +1,18 @@
+/*
+  COLOR PALLETTES:
+  1. #DFE0DF #A5C2B6 #80B0C4
+*/
+
+
 
 /* Global */
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #DFE0DF;
 }
 
 a {
@@ -17,15 +27,17 @@ a:hover {
 /* Header */
 header {
   display: inline-flex;
-  background-color: rgb(212, 180, 121);
+  background-color: #80B0C4;
   width: 100%;
   align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   position: static;
   z-index: 2;
   height: auto;
+  position: fixed;
+  top: 0;
 }
 nav {
   width: 60%;
@@ -47,12 +59,13 @@ nav ul{
 
 article {
   padding: 60px 20px;
+  background-color: #DFE0DF;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgb(212, 180, 121);
+  background-color: #80B0C4;
   border-top: 2px solid black;
 }
 
@@ -99,12 +112,10 @@ h2, p {
 
 #showspace {
   width: inherit;
-  height: auto;
-  background-image: url(wallpapershowcase2.jpg);
-  background-position: center;
-  background-size: 300px;
+  height: 85vh;
+  border-bottom: 1px solid black;
   padding: 10px 20px 50px 20px;
-  border-bottom: 2px outset black;
+  background-color: #DFE0DF;
 }
 
 #showspace h2{
@@ -134,11 +145,6 @@ h2, p {
 #profilepic {
   width: 200px;
   height: auto;
-}
-
-#torn {
-  width: 100%;
-  position: relative;
 }
 
 #footer  {
