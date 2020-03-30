@@ -112,8 +112,8 @@ h2, p {
 
 #showspace {
   width: inherit;
-  height: 82vh;
-  padding: 10vh 20px 50px 20px;
+  height: 100vh;
+  border-bottom: 1px solid black;
   background-color: #DFE0DF;
 }
 
