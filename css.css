@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #DFE0DF;
+  background-color: #F0F0F0;
 }
 
 a {
@@ -113,8 +113,6 @@ h2, p {
 #showspace {
   width: inherit;
   height: 100vh;
-  border-bottom: 1px solid black;
-  background-color: #DFE0DF;
 }
 
 #showspace h2{
@@ -158,6 +156,14 @@ h2, p {
 
 
 @media only screen and (max-width: 640px){
+  #showspace {
+    height: auto;
+  }
+
+  #showspace h2 {
+    padding-top: 100px;
+  }
+  
   #showpics {
     display: flex;
     flex-direction: column;
@@ -184,8 +190,5 @@ h2, p {
   }
   nav li {
     font-size: 1.2rem;
-  }
-  .logo {
-    display: none;
   }
 }
