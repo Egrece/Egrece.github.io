@@ -1,0 +1,186 @@
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Header */
+header {
+  display: inline-flex;
+  background-color: rgb(212, 180, 121);
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  position: static;
+  z-index: 2;
+  height: auto;
+}
+nav {
+  width: 60%;
+  flex: 10;
+}
+
+nav li {
+  font-family: 'Baloo Thambi 2', cursive, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+nav ul{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+article {
+  padding: 60px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(212, 180, 121);
+  border-top: 2px solid black;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Titillium Web', cursive, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 0 10px 0 20px;
+  flex: 6;
+}
+
+p {
+  letter-spacing: 0.2rem;
+  word-spacing: 0.3;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+}
+
+h2, p {
+  font-family: 'Baloo Thambi 2', cursive, serif;
+  font-weight: 400;
+}
+
+.logo {
+  padding: 5px 0 0 5px;
+  width: 60px;
+  height: auto;
+  flex:1;
+}
+
+.current {
+  color: white;
+  pointer-events: none;
+  cursor: default;
+}
+
+.showframe {
+  width: 30%;
+}
+
+#showspace {
+  width: inherit;
+  height: auto;
+  background-image: url(wallpapershowcase2.jpg);
+  background-position: center;
+  background-size: 300px;
+  padding: 10px 20px 50px 20px;
+  border-bottom: 2px outset black;
+}
+
+#showspace h2{
+  padding: 20px;
+}
+
+#showpics {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  flex: 1;
+}
+
+#pic {
+  flex: 1;
+  width: 200px;
+}
+
+#profilepic {
+  width: 200px;
+  height: auto;
+}
+
+#torn {
+  width: 100%;
+  position: relative;
+}
+
+#footer  {
+  letter-spacing: initial;
+  font-size: 0.8rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+  #showpics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showframe {
+    width: 80%;
+    height: auto;
+    padding: 30px 0;
+  }
+  body {
+    min-width: 270px;
+  }
+  header {
+    height: auto;
+    display: block;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  nav {
+    width: 100%;
+  }
+  nav li {
+    font-size: 1.2rem;
+  }
+  .logo {
+    display: none;
+  }
+}
