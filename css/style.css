@@ -40,8 +40,20 @@ header {
   top: 0;
 }
 nav {
+  display: none;
   width: 60%;
   flex: 10;
+}
+
+#menu:hover {
+  cursor: pointer;
+}
+
+#menu {
+  font-family: 'Baloo Thambi 2', cursive, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-right: 10px;
 }
 
 nav li {
