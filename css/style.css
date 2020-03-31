@@ -40,7 +40,6 @@ header {
   top: 0;
 }
 nav {
-  display: none;
   width: 60%;
   flex: 10;
 }
