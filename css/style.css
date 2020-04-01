@@ -24,7 +24,7 @@ a {
   color: inherit;
 }
 
-a:hover {
+nav a:hover {
   color: #FF004C;
 }
 
@@ -212,7 +212,7 @@ h2, p {
   header {
     display: flex;
     flex-direction: column;
-    height: 13vh;
+    height: auto;
     align-items: center;
   }
   h1 {
