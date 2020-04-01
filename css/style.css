@@ -115,7 +115,7 @@ h2, p {
 }
 
 .current {
-  color: white;
+  color: #FF004C;
   pointer-events: none;
   cursor: default;
 }
@@ -143,13 +143,14 @@ h2, p {
 }
 
 #menuicon {
+  cursor: pointer;
   width: 25px;
-  padding: 0 5px 9px 0;
+  padding: 0 2px 5px 0;
 }
 
 #showspace {
   background: url('../images/background.jpg') 0 -220px/cover;
-  box-shadow: inset 0 0 100px black, 5px 0 5px black;
+  box-shadow: inset 0 0 1000px black, 5px 0 5px black;
   width: 100%;
   height: 90vh;
   color: white;
