@@ -1,6 +1,10 @@
 /*
-  COLOR PALLETTES:
-  1. #DFE0DF #A5C2B6 #80B0C4
+  COLOR PALLETTE:
+  1. #93B7BE ~ blue;
+  2. #F1FFFA ~ white;
+  3. #D5C7BC ~ beige;
+  4. #785964 ~ red matte;
+  5. #454545 ~ dark gray;
 */
 
 
@@ -12,7 +16,7 @@
 }
 
 body {
-  background-color: #DFE0DF;
+  background-color: white;
 }
 
 a {
@@ -27,7 +31,6 @@ a:hover {
 /* Header */
 header {
   display: inline-flex;
-  background-color: #80B0C4;
   width: 100%;
   align-items: flex-end;
   justify-content: space-between;
@@ -67,18 +70,17 @@ nav ul{
 
 article {
   padding: 60px 20px;
-  background-color: #DFE0DF;
+  
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #80B0C4;
+  background-color: #93B7BE;
   border-top: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  color: black;
   font-family: 'Titillium Web', cursive, sans-serif;
   font-weight: 600;
   font-size: 2rem;
@@ -105,9 +107,9 @@ h2, p {
   float: left;
   margin: 20px 0 0 0;
   padding: 10px;
-  background-color: #80B0C4;
+  background-color: #FF004C;
   border-radius: 3px;
-  box-shadow: 3px 3px 5px grey;
+  box-shadow: 1px 1px 5px black;
   font-size: 1.5rem;
   text-shadow: none;
 }
@@ -119,6 +121,7 @@ h2, p {
 }
 
 .showframe {
+  display: none;
   float: right;
   width: 450px;
   padding: 60px 50px 0 0;
@@ -128,7 +131,7 @@ h2, p {
   padding: 30px 0 0 30px;
   display: inline-block;
   width: 40%;
-  text-shadow: 2px 2px 5px grey;
+  text-shadow: 1px 1px 3px black;
 }
 
 .showspacetext h2{
@@ -145,8 +148,11 @@ h2, p {
 }
 
 #showspace {
+  background: url('../images/background.jpg') 0 -220px/cover;
+  box-shadow: inset 0 0 100px black, 5px 0 5px black;
   width: 100%;
   height: 90vh;
+  color: white;
 }
 
 #profile {
