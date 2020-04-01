@@ -81,7 +81,7 @@ footer {
 }
 
 h1 {
-  color: whitesmoke;
+  color: black;
   font-family: 'Titillium Web', cursive, sans-serif;
   font-weight: 600;
   font-size: 2rem;
@@ -92,6 +92,7 @@ h1 {
 p {
   letter-spacing: 0.2rem;
   word-spacing: 0.3;
+  padding-left: 20px;
 }
 
 h2 {
@@ -102,6 +103,16 @@ h2 {
 h2, p {
   font-family: 'Baloo Thambi 2', cursive, serif;
   font-weight: 400;
+}
+
+.button {
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  background-color: #80B0C4;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 20px;
 }
 
 .logo {
@@ -129,16 +140,19 @@ h2, p {
 #showspace {
   width: inherit;
   height: 100vh;
+  border-bottom: 1px solid black;
 }
 
 #showspace h2{
   padding: 60px 20px 20px 20px;
+  background-image: ;
 }
 
 #showpics {
   display: inline-flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 40px;
 }
 
 #profile {
