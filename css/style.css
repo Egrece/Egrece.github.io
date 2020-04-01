@@ -91,8 +91,7 @@ h1 {
 
 p {
   letter-spacing: 0.2rem;
-  word-spacing: 0.3;
-  padding-left: 20px;
+  word-spacing: 0.2rem;
 }
 
 h2 {
@@ -107,7 +106,7 @@ h2, p {
 
 .button {
   float: left;
-  margin: 20px;
+  margin: 20px 0 0 0;
   padding: 5px;
   background-color: #80B0C4;
   border-radius: 3px;
@@ -119,7 +118,7 @@ h2, p {
   padding: 5px 0 0 5px;
   width: 60px;
   height: auto;
-  flex:1;
+  flex: 1;
 }
 
 .current {
@@ -132,26 +131,23 @@ h2, p {
   width: 30%;
 }
 
+.showspacetext {
+  margin: 60px 0 0 20px;
+}
+
 #menuicon {
   width: 25px;
   padding: 0 5px 9px 0;
 }
 
 #showspace {
+  background: url("") ;
   width: inherit;
   height: 100vh;
   border-bottom: 1px solid black;
 }
 
-#showspace h2{
-  padding: 60px 20px 20px 20px;
-  background-image: ;
-}
-
 #showpics {
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center;
   padding-top: 40px;
 }
 
@@ -191,11 +187,6 @@ h2, p {
   }
   #showspace h2 {
     padding-top: 100px;
-  }
-  #showpics {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .showframe {
     width: 80%;
