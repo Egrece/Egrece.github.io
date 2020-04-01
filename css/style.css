@@ -35,7 +35,7 @@ header {
   align-items: flex-end;
   justify-content: space-between;
   padding-bottom: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 black;
   position: static;
   height: 9vh;
   background-color: white;
@@ -191,17 +191,19 @@ h2, p {
 
 @media only screen and (max-width: 790px){
   #showspace {
-    height: 80vh;
-    background-position: right;
+    height: auto;
+    background-position: top;
+    box-shadow: inset 0 0 100px 30px black, 0 4px 7px -3px black;
   }
-  #showspace h2 {
-    font-size: 2rem;
-  }
-  #showspace p {
-    font-size: 1rem;
+  .showspacetext {
+    box-sizing: border-box;
+    padding-right: 30px;
+    width: 100%;
   }
   .button {
-    font-size: 1rem;
+    padding: 7px;
+    font-size: 0.9rem;
+    margin: 10px;
   }
   body {
     min-width: 270px;
@@ -210,6 +212,7 @@ h2, p {
     padding: 0;
   }
   header {
+    box-shadow: inset 0 -4px 4px -2px black;
     display: flex;
     flex-direction: column;
     height: auto;
