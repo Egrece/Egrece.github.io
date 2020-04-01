@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: #FF004C;
 }
 
 /* Header */
@@ -38,6 +38,7 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: static;
   height: 9vh;
+  background-color: white;
 }
 nav {
   width: 60%;
@@ -76,8 +77,8 @@ article {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #93B7BE;
-  border-top: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 h1 {
@@ -149,7 +150,7 @@ h2, p {
 }
 
 #showspace {
-  background: url('../images/background.jpg') 0 -220px no-repeat;
+  background: url('../images/background.jpg') no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 1000px black, 5px 0 5px black;
   width: 100%;
